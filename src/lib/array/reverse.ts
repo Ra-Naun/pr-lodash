@@ -1,6 +1,6 @@
-export default (array: any[]): any[] => {
+export default (array: any[any]): any[any] => {
   const revArr = [];
-  for (let index = array.length - 1; index >= 0; index++) {
+  for (let index = array.length - 1; index >= 0; index--) {
     revArr.push(array[index]);
   }
   // OR:
