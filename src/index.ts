@@ -1,7 +1,1 @@
-export interface ISubscription {
-  t1: string;
-}
-
-const test = (params: ISubscription) => {
-
-}
+export { default as reverse } from './array/reverse';
